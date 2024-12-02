@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>NxN RestApi</title>
+    <link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
+    <link rel="stylesheet" href="vendors/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" href="vendors/owl-carousel-2/owl.carousel.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="vendors/owl-carousel-2/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7Wk6KnE7aJHUHjpp_wBoDfkeSIOQfSGMmxg&usqp=CAU"><link rel="stylesheet" href="ajax/libs/limonte-sweetalert2/7.33.1/sweetalert2.min.css">
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7Wk6KnE7aJHUHjpp_wBoDfkeSIOQfSGMmxg&usqp=CAU"><link rel="stylesheet" href="ajax/libs/limonte-sweetalert2/7.33.1/sweetalert2.min.css">
+    <script src="ajax/libs/limonte-sweetalert2/7.33.1/sweetalert2.min.js"></script>
+   <meta name="description" content="NxN RestApi">
+   <meta property="og:image" content="https://i.ibb.co/rms01nM/20220624-202402.png">
+   <meta property="og:site_name" content="EKA PI">
+  </head>
+  <body>
+  <body id="page-top" onload="getvisitor();">
+    <div class="container-scroller">
+      <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">
+        </div>
+       <font face="Original Surfer">
+        <ul class="nav">
+          <li class="nav-item profile">
+            <div class="profile-desc">
+              <div class="profile-pic">
+                <div class="count-indicator">
+                  <img class="img-xs rounded-circle " src="https://i.ibb.co/rms01nM/20220624-202402.png" alt="">
+                  <span class="count bg-success"></span>
+                </div>
+                <div class="profile-name">
+                  <h5 class="mb-0 font-weight-normal">NxN Developer</h5>
+                  <span>Enjoy WIth Our RestApi</span>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item nav-category">
+            <span class="nav-link">Docs</span>
+          </li>
+          <li class="nav-item menu-items">
+          <a class="nav-link" href="docs">
+          <span class="menu-icon">
+          <i class="mdi mdi-shield-home"></i>
+          </span>
+          <span class="menu-title">Home</span>
+          </a>
+          </li>
+          <li class="nav-item menu-items">
+          <a class="nav-link" href="search">
+          <span class="menu-icon">
+          <i class="mdi mdi-magnify faa-flash animated"></i>
+          </span>
+          <span class="menu-title">Search</span>
+          </a>
+          </li>
+          <li class="nav-item menu-items">
+          <a class="nav-link" href="berita">
+          <span class="menu-icon">
+          <i class="mdi mdi-newspaper faa-flash animated"></i>
+          </span>
+          <span class="menu-title">Berita</span>
+          </a>
+          </li>
+          <li class="nav-item menu-items">
+          <a class="nav-link" href="primbon">
+          <span class="menu-icon">
+          <i class="mdi mdi-heart-multiple faa-flash animated"></i>
+          </span>
+          <span class="menu-title">Primbon</span>
+          </a>
+          </li>
+          <li class="nav-item menu-items">
+          <a class="nav-link" href="religion">
+          <span class="menu-icon">
+          <i class="mdi mdi-islam faa-flash animated"></i>
+          </span>
+          <span class="menu-title">Religion</span>
+          </a>
+          </li>
+          <li class="nav-item menu-items">
+          <a class="nav-link" href="downloader">
+          <span class="menu-icon">
+          <i class="mdi mdi-download faa-flash animated"></i>
+          </span>
+          <span class="menu-title">Downloader</span>
+          </a>
+          </li>
+          <li class="nav-item menu-items">
+          <a class="nav-link" href="stalking">
+          <span class="menu-icon">
+          <i class="mdi mdi-account faa-flash animated"></i>
+          </span>
+          <span class="menu-title">Stalking</span>
+          </a>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="other">
+            <span class="menu-icon">
+            <i class="mdi mdi-dots-horizontal-circle faa-flash animated"></i>
+            </span>
+            <span class="menu-title">Other</span>
+            </a>
+            </li>
+          <li class="nav-item nav-category">
+          <span class="nav-link">Contact Me</span>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="https://github.com/drgynn">
+              <span class="menu-icon">
+                <i class="mdi mdi-github-circle"></i>
+              </span>
+              <span class="menu-title">Github</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="https://wa.me/6281932667322">
+              <span class="menu-icon">
+                <i class="mdi mdi-whatsapp"></i>
+              </span>
+              <span class="menu-title">WhatsApp</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="https://wa.me/6281932667322">
+              <span class="menu-icon">
+                <i class="mdi mdi-cash-multiple"></i>
+              </span>
+              <span class="menu-title">Donasi</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="https://instagram.com/andra__182">
+              <span class="menu-icon">
+                <i class="mdi mdi-instagram"></i>
+              </span>
+              <span class="menu-title">Instagram</span>
+            </a>
+          </li>
+        </ul>
+       </font>
+      </nav>
+
+      <div class="container-fluid page-body-wrapper">
+        <nav class="navbar p-0 fixed-top d-flex flex-row">
+          <div class="navbar-brand-wrapper d-flex d-lg-none align-items-center justify-content-center">
+            <a class="navbar-brand brand-logo-mini" href="index.html"><big><i class="mdi mdi-biohazard text-primary"></i></big></a>
+          </div>
+          <div class="navbar-menu-wrapper flex-grow d-flex align-items-stretch">
+            <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+              <span class="mdi mdi-menu"></span>
+            </button>
+            <ul class="navbar-nav navbar-nav-right">
+              <li class="nav-item dropdown">
+                <a class="nav-link" id="profileDropdown" href="" data-toggle="dropdown">
+                  <div class="navbar-profile">
+                    <img class="img-xs rounded-circle" src="https://i.ibb.co/rms01nM/20220624-202402.png" alt="">
+                    <p class="mb-0 d-none d-sm-block navbar-profile-name">NxN RestApi</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+              <span class="mdi mdi-format-line-spacing"></span>
+            </button>
+          </div>
+        </nav>
+        <br></br>
+      <div class="bg-dark btn btn-block">
+      <div class="container-fluid" id="container-wrapper">
+        <div class="d-sm-flex align-items-center justify-content-between mb-4">
+          <h1 class="h3 mb-0 text-gray-800">Primbon List</h1>
+          <h1 class="h3 mb-0 text-gray-800">Primbon List</h1>
+          <h1 class="h3 mb-0 text-gray-800"></h1>
+        </div>
+        <div class="row mb-3">
+          <div class="col-lg-12 mb-4">
+            <div class="card">
+              <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                <h1 class="h3 mb-0 text-gray-800">Primbon List</h1>
+              </div>
+              <div class="table-responsive">
+                <table class="table align-items-center table-flush">
+                  <thead class="thead-blue">
+                    <tr>
+                      <th>NAME</th>
+                      <th>PARAMETER</th>
+                      <th>METHOD</th>
+                      <th>STATUS</th>
+                      <th>TRY</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                   <td>Arti Nama</td>
+                      <td>q & apikey</td>
+                      <td><div class="badge bg-blue btn btn-block btn-outline-warning">GET</div></td>
+                      <td><div class="badge bg-blue btn btn-block btn-outline-success">ONLINE</div></td>
+                      <td><a target="_blank" href="api/primbon/artinama?q=NeedCuan&apikey=apikeymu" class="badge bg-blue btn btn-block btn-outline-primary" rel="nofollow" target="_blank"><i class="mdi mdi-arrow-top-right"></a></td>
+                    </tr>
+                    <tr>
+                   <td>Arti Mimpi</td>
+                      <td>q & apikey</td>
+                      <td><div class="badge bg-blue btn btn-block btn-outline-warning">GET</div></td>
+                      <td><div class="badge bg-blue btn btn-block btn-outline-success">ONLINE</div></td>
+                      <td><a target="_blank" href="api/primbon/artimimpi?q=jatuh&apikey=apikeymu" class="badge bg-blue btn btn-block btn-outline-primary" rel="nofollow" target="_blank"><i class="mdi mdi-arrow-top-right"></a></td>
+                    </tr>
+                    <tr>
+                   <td>Pencocokan Jodoh</td>
+                      <td>nama1 & nama2 & apikey</td>
+                      <td><div class="badge bg-blue btn btn-block btn-outline-warning">GET</div></td>
+                      <td><div class="badge bg-blue btn btn-block btn-outline-success">ONLINE</div></td>
+                      <td><a target="_blank" href="api/primbon/jodoh?nama1=NeedCuan&nama2=Aoi Sora&apikey=apikeymu" class="badge bg-blue btn btn-block btn-outline-primary" rel="nofollow" target="_blank"><i class="mdi mdi-arrow-top-right"></a></td>
+                    </tr>
+                    <tr>
+                   <td>Nomor Hoki</td>
+                      <td>nomor & apikey</td>
+                      <td><div class="badge bg-blue btn btn-block btn-outline-warning">GET</div></td>
+                      <td><div class="badge bg-blue btn btn-block btn-outline-success">ONLINE</div></td>
+                      <td><a target="_blank" href="api/primbon/nomor-hoki?nomor=6281932667322&apikey=apikeymu" class="badge bg-blue btn btn-block btn-outline-primary" rel="nofollow" target="_blank"><i class="mdi mdi-arrow-top-right"></a></td>
+                    </tr>
+                    <tr>
+                   <td>Kata-Kata Sedih Generator</td>
+                      <td> apikey</td>
+                      <td><div class="badge bg-blue btn btn-block btn-outline-warning">GET</div></td>
+                      <td><div class="badge bg-blue btn btn-block btn-outline-success">ONLINE</div></td>
+                      <td><a target="_blank" href="api/katasedih?apikey=apikeymu" class="badge bg-blue btn btn-block btn-outline-primary" rel="nofollow" target="_blank"><i class="mdi mdi-arrow-top-right"></a></td>
+                    </tr>
+                    <tr>
+                   <td>Kata-Kata Cinta Generator</td>
+                      <td> apikey</td>
+                      <td><div class="badge bg-blue btn btn-block btn-outline-warning">GET</div></td>
+                      <td><div class="badge bg-blue btn btn-block btn-outline-success">ONLINE</div></td>
+                      <td><a target="_blank" href="api/katacinta?apikey=apikeymu" class="badge bg-blue btn btn-block btn-outline-primary" rel="nofollow" target="_blank"><i class="mdi mdi-arrow-top-right"></a></td>
+                    </tr>
+                  </tbody>
+                </table>
+                </td>
+              </div>
+            </div>
+          </div>
+          </ul>
+          <footer class="footer">
+          <div class="d-sm-flex justify-content-center justify-content-sm-between">
+            <div class="bg-dark btn btn-block btn-outline-danger">
+              <font face="Original Surfer" class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © <span id="Years">00</span> NxN RestApi</font>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
+</script>
+    <script>
+      swal({
+        title: 'Selamat Datang Di NxN RestApi',
+        text: 'Maaf gan, dikit fiturnya 💀',
+        imageUrl: 'https://i.ibb.co/rms01nM/20220624-202402.png',
+        imageWidth: 200,
+        imageHeight: 200,
+        imageAlt: 'Danu',
+        animation: true
+      })
+    </script>
+    <script src="vendors/js/vendor.bundle.base.js"></script>
+    <script src="vendors/owl-carousel-2/owl.carousel.min.js"></script>
+    <script src="js/off-canvas.js"></script>
+    <script src="js/hoverable-collapse.js"></script>
+    <script src="js/misc.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/todolist.js"></script>
+    <script src="js/dashboard.js"></script>
+    <script src="js/ojan.js"></script>
+  </html>
